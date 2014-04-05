@@ -10,7 +10,7 @@
 #include <DigitalToggle.h>
 #include <string.h>
 #include <SD.h>
-#define MAX_STRING_LEN  99
+#define MAX_STRING_LEN  98
 #define cs 53 //CS
 #define dc 49 //A0
 #define mosi 51 //SDA
