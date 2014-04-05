@@ -13,6 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="_core">
+      <UniqueIdentifier>{7de8d7ec-7688-4441-b628-f949e186beb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries">
+      <UniqueIdentifier>{a920e4c3-1a61-4918-93b1-545bb578689f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SPI">
+      <UniqueIdentifier>{69f15637-ce47-4781-848b-aba9e5136063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Adafruit_GFX">
+      <UniqueIdentifier>{3aede837-2314-415c-9cb5-a3b2f1e96305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Adafruit_ST7735">
+      <UniqueIdentifier>{c216465b-c62a-442f-8be5-15df36187797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Ethernet">
+      <UniqueIdentifier>{32f332ea-01a4-4299-918e-9e24b088b349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\DallasTemperature">
+      <UniqueIdentifier>{427e4c6d-746c-46d9-913e-0ce0829340ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\OneWire">
+      <UniqueIdentifier>{a34f038f-df07-4ea8-a6d3-45ff3850c142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\LiquidCrystal">
+      <UniqueIdentifier>{35044f16-93a7-41e9-805e-322258fef1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Wire">
+      <UniqueIdentifier>{84c31664-7884-41a0-8a1e-aeb4d63a5010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\elapsedMillis">
+      <UniqueIdentifier>{9dd4ba3a-9de7-49d1-b531-24807e2817a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\DigitalToggle">
+      <UniqueIdentifier>{1e6eff81-423f-403b-97c4-0322c3837776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SD">
+      <UniqueIdentifier>{70b9ac7a-4bca-421e-a973-a5243de3c37f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="test6.ino" />
@@ -22,5 +61,223 @@
     <ClInclude Include="Visual Micro\.test6.vsarduino.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\binary.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Client.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\HardwareSerial.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\IPAddress.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\new.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Platform.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Print.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Printable.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Server.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Stream.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Udp.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBAPI.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBCore.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBDesc.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WCharacter.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WString.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\variants\mega\pins_arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\SPI\SPI.h">
+      <Filter>_libraries\SPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Adafruit_GFX\Adafruit_GFX.h">
+      <Filter>_libraries\Adafruit_GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Adafruit_GFX\PImage.h">
+      <Filter>_libraries\Adafruit_GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Adafruit_ST7735\Adafruit_ST7735.h">
+      <Filter>_libraries\Adafruit_ST7735</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Ethernet\Dhcp.h">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Ethernet\Dns.h">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Ethernet\Ethernet.h">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Ethernet\EthernetClient.h">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Ethernet\EthernetServer.h">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Ethernet\EthernetUdp.h">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Ethernet\util.h">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\DallasTemperature\DallasTemperature.h">
+      <Filter>_libraries\DallasTemperature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\OneWire\OneWire.h">
+      <Filter>_libraries\OneWire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\LiquidCrystal\LiquidCrystal.h">
+      <Filter>_libraries\LiquidCrystal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Wire\Wire.h">
+      <Filter>_libraries\Wire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\elapsedMillis\elapsedMillis.h">
+      <Filter>_libraries\elapsedMillis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\DigitalToggle\DigitalToggle.h">
+      <Filter>_libraries\DigitalToggle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\SD\SD.h">
+      <Filter>_libraries\SD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\CDC.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\HardwareSerial.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\HID.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\IPAddress.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\main.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\new.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Print.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Stream.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\Tone.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\USBCore.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WInterrupts.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_analog.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_digital.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_pulse.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\wiring_shift.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WMath.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\cores\arduino\WString.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\SPI\SPI.cpp">
+      <Filter>_libraries\SPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Adafruit_GFX\Adafruit_GFX.cpp">
+      <Filter>_libraries\Adafruit_GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Adafruit_GFX\glcdfont.c">
+      <Filter>_libraries\Adafruit_GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Adafruit_ST7735\Adafruit_ST7735.cpp">
+      <Filter>_libraries\Adafruit_ST7735</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Ethernet\Dhcp.cpp">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Ethernet\Dns.cpp">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Ethernet\Ethernet.cpp">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Ethernet\EthernetClient.cpp">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Ethernet\EthernetServer.cpp">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Ethernet\EthernetUdp.cpp">
+      <Filter>_libraries\Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\DallasTemperature\DallasTemperature.cpp">
+      <Filter>_libraries\DallasTemperature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\OneWire\OneWire.cpp">
+      <Filter>_libraries\OneWire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\LiquidCrystal\LiquidCrystal.cpp">
+      <Filter>_libraries\LiquidCrystal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Wire\Wire.cpp">
+      <Filter>_libraries\Wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\DigitalToggle\DigitalToggle.cpp">
+      <Filter>_libraries\DigitalToggle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\SD\File.cpp">
+      <Filter>_libraries\SD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\SD\SD.cpp">
+      <Filter>_libraries\SD</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
